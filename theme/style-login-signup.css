@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,600,600i,700,700i&display=swap&subset=vietnamese");
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap&subset=vietnamese");
+
+*{
+    font-family: "Montserrat", sans-serif;
+    /* height: 200px;
+    width: 300px; */
+    /* border: 2px solid #eb1ac8; */
+}
+
+h3{
+    color: #eb1ac8;
+    font-size: 20px;
+    /* font-weight: 100; */
+}
+
+/* .form-group {
+    color: #eb1ac8;
+} */
+
+
+label{
+    transform: translateY(-130%);
+    margin-left: 5px;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}
+.form-group input:focus{
+    border: 3px solid #eb1ac8;
+}
+
+
+.form-group input:focus + label, .form-group input:valid + label {
+    transform: translateY(-280%);
+    font-size: 15px;
+    font-weight: 500;
+    color: #eb1ae1;
+}
+
+.form-group a {
+    color: #eb1ac8;
+    /* margin-bottom: 20px; */
+}
+
+#checker {
+    color: #eb1ac8;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#btn-signup {
+    /* background: #eb1ac8; */
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+#btn-signup:hover {
+    opacity: 0.8;
+    font-size: inherit;
+}
+
+#btn-login {
+    /* background: #eb1ac8; */
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+#btn-login:hover {
+    opacity: 0.8;
+    font-size: inherit;
+}
